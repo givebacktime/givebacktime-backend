@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_givebacktime_backend_1689337137683-pr-trigger-input-set
+  identifier: Build_givebacktime_backend_1689337137683prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_givebacktime_backend_1689337137683
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
